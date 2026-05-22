@@ -1,0 +1,70 @@
+body {
+  background-color: beige;
+  /*remove if background image is used*/
+  /*background-image: url(link to the image);*/
+  /*background-image: linear-gradient(color1,color2, etc...);*/
+  display: none; /*keep for fade in*/
+
+h1 {
+  /*color: font color here;*/
+  /* font-family: font name here (Times New Roman);*/
+  /* font-style: normal, italic, oblique;*/
+  /* font-weight: normal, bold, bolder, lighter, or numbers (100-900);*/
+}
+
+h3 {
+  /*color: font color here;*/
+  /* font-family: font name here (Times New Roman);*/
+  /* font-style: normal, italic, oblique;*/
+  /* font-weight: normal, bold, bolder, lighter, or numbers (100-900);*/
+}
+
+.header,.content {
+  align: center;
+  width: 50%;
+  padding: 10px;
+  margin-left: 25%;
+  margin-right:50px;
+  border: 5px outset white;
+  background-color: white;
+  /*remove if background image is used*/
+  /*background-image: url(link to the image);*/
+  /*background-image: linear-gradient(color1,color2, etc...);*/
+}
+
+.header {
+  display: flex;
+  /*background-color: color here;*/
+  /*remove if background image is used*/
+  /*background-image: url(link to the image);*/
+  /*background-image: linear-gradient(color1,color2, etc...);*/
+
+}
+
+.content {
+  /*background-color: color here;*/
+  /*remove if background image is used*/
+  /*background-image: url(link to the image);*/
+  /*background-image: linear-gradient(color1,color2, etc...);*/
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.right {
+  /* color: black; (font color)*/
+  width: 25%;
+  margin-left: 50%;
+  font-style: italic;
+  font-size: 12px;
+  text-align: right;
+}
+
+#text {
+  padding-left: 10px;
+}
+
+#image {
+  padding: 10px;
+}
