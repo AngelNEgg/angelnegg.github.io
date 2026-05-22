@@ -2,7 +2,7 @@ body {
   background-color: lavenderblush;
   /*remove if background image is used*/
   /*background-image: url(link to the image);*/
-  /*background-image: linear-gradient(lightsalmon,lightcoral, etc...);*/
+  background-image: radial-gradient(lightsalmon,lightcoral);
   display: none; /*keep for fade in*/
 
 h1 {
@@ -18,6 +18,14 @@ h3 {
   /* font-style: normal, italic, oblique;*/
   /* font-weight: normal, bold, bolder, lighter, or numbers (100-900);*/
 }
+  
+  h2{
+    text-align: center;
+  }
+  
+  img {
+    border: 3px inset gold;
+  }
 
 .header,.content {
   align: center;
@@ -49,6 +57,7 @@ h3 {
 }
 
 p {
+  text-indent: 40px;
   font-family: "Times New Roman", Times, serif;
 }
 
